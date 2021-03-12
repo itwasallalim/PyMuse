@@ -175,7 +175,7 @@ class Headband:
                             type=int,
                             default=port,
                             help="The port to listen on")
-        args = parser.parse_args()
+        args = parser.parse_args(args=[])
 
         # map information to listen for
         dp = dispatcher.Dispatcher()
