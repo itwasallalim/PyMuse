@@ -1,6 +1,9 @@
 # PyMuse
 A way to connect to the Muse Headset via the Muse Monitor
-### Windows Python Only :(
+
+#### Tested for Windows Python Only
+## Dependencies
+python-osc: ">= 1.7.4"
 
 # Getting Connected
 ### 1. Connect your headband to the Muse Monitor App
